@@ -1,0 +1,16 @@
+{
+  "name": "logger",
+  "version": "1.0.0",
+  "description": "This is logging library for Node.js modules",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "pratheek",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "./aws-sdk-client-dynamodb-v3.215.0.tgz",
+    "@aws-sdk/lib-dynamodb":"./aws-sdk-lib-dynamodb-v3.215.0.tgz"
+  }
+}
