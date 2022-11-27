@@ -23,9 +23,13 @@ services:
     depends_on:
       - dynamodb-local
 
-# networks:
-#     external: true
-#     name: logger
+  verdaccio:
+    image: verdaccio/verdaccio
+    ports:
+      - "4873:4873"
+    container_name: verdaccio
+    networks:
+      - logger
 
 networks:
   logger:

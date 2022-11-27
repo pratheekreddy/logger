@@ -1,6 +1,6 @@
 {
-  "name": "logger",
-  "version": "1.0.0",
+  "name": "slulogger",
+  "version": "1.0.4",
   "description": "This is logging library for Node.js modules",
   "main": "index.js",
   "type": "module",
@@ -10,7 +10,6 @@
   "author": "pratheek",
   "license": "ISC",
   "dependencies": {
-    "@aws-sdk/client-dynamodb": "./aws-sdk-client-dynamodb-v3.215.0.tgz",
-    "@aws-sdk/lib-dynamodb":"./aws-sdk-lib-dynamodb-v3.215.0.tgz"
+    "aws-sdk": "^2.1261.0"
   }
 }
